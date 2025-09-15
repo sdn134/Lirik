@@ -1,0 +1,28 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #ff4081;
+}
+
+#lyrics {
+  font-size: 22px;
+  margin-top: 40px;
+  min-height: 200px;
+}
+
+.char {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeIn 0.1s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; color: #00ffcc; }
+}
+
